@@ -2,7 +2,7 @@
 Simple commands to enhance gameplay. Includes commands to find mob spawning locations, slime chunks, spectator mode, and the locations of nearby spawners.
 
 ## Commands
-This plugin currently features five commands! Here are the details:
+This plugin currently features four commands! Here are the details:
 
 ### /slimef
 This command will show the player nearby slime chunks in the server's render distance. This will be shown via a minature map located in the chat. 

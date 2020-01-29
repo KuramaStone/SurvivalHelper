@@ -1,0 +1,31 @@
+name: SurvivalHelper
+author: BrookEternal
+version: 1.0.0
+
+main: me.brook.helper.Main
+api-version: 1.13
+
+commands:
+  slimef:
+    description: Finds slime chunks around the player.
+  spawnerf:
+    description: Finds spawners around player.
+  spectate:
+    aliases: [c, sp]
+    description: Swaps to spectator. Returns to original position after ending.
+  spawnablef:
+    description: Finds subchunks with spawnable blocks in a 128-block radius of the player.
+  monitorspawns:
+    description: Monitors mob spawning around player
+  spy:
+    description: Makes player invisible
+    
+permissions:
+  SurvivalHelper.cycle:
+    description: Allows player to use /spectate to cycle to Spectator and back to survival. They will teleport back to their starting position.
+  SurvivalHelper.find.slime:
+    description: Allows player to use /slimef to find nearby slime chunks.
+  SurvivalHelper.find.spawner:
+    description: Allows player to use /spawnerf to find nearby spawners.
+  SurvivalHelper.monitorspawns:
+    description: Allows player to monitor nearby spawns.
